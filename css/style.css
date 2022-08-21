@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-decoration: none;
+	font-family: "Poppins" , sans-serif;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+body {
+	font-family: "Poppins" , sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	background-color: #c8e8e9;
+}
+header {
+	width: 90%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	align-items: center;
+}
+div.one {
+	width: 50%;
+}
+header div.one a img {
+	display: block;
+}
+header div.one h1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+header div.two {
+	width: 50%;
+}
+header div.two ul {
+	display: flex;
+	align-items: center;
+}
+header div.two ul li {
+	margin-right: 92px;
+}
+header div.two ul li:last-child {
+	margin-right: 0;
+}
+header div.two ul li a {
+	font-size: 16px;
+	color: #000;
+}
+header div.two ul li a.button {
+	background-color: #3e2093;
+	color: #fff;
+	font-size: 18px;
+	outline: none;
+	padding: 8px 16px;
+	cursor: pointer;
+	border-radius: 6px;
+	border: none;
+}
+/* end the css of header part */
+#spotlight {
+	margin-top: 100px;
+
+}
+
+#spotlight div.image {
+	width: 50%;
+	margin: 0 auto;
+	padding: 44px;
+}
+#spotlight div.image img {
+	display: block;
+	width: 100%;
+	border-radius: 15px;
+	box-shadow: 1px 2px 1px 2px #959496;
+}
+#spotlight div.button {
+    text-align: center;
+	margin-top: -72px;
+	
+}
+#spotlight div.button a.button {
+	display: inline-block;
+	background-color: #3e2093;
+	color: #fff;
+	font-size: 18px;
+	outline: none;
+	padding: 15px 22px;
+	cursor: pointer;
+	border-radius: 6px;
+	border: none;
+	margin: 0 auto;
+}
+/* ended spotlight section */
+#middle {
+	margin: 50px;
+}
+#middle div.title {
+	margin-bottom: 58px;
+}
+#middle div.title h4 {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 100px;
+	margin-top: 130px;
+}
+#middle div.title h4 b {
+	color:#3e2093;
+	font-size: 50px;
+	font-weight: 500px;
+}
+#middle div.data {
+	display: flex;
+	align-items: center;
+}
+#middle div.left div.img {
+	width: 65%;
+	margin-bottom: 250px;
+}
+#middle div.left div.img img {
+	display: block;
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 10px 10px 8px 10px #888888;
+}
+#middle div.right {
+	width: 50%;
+}
+#middle div.right p {
+	font-size: 25px;
+}
+#middle div.img {
+	height: 20px;
+}
+#bottem div.title h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 150px;
+}
+#bottem div.title h1 b {
+	color:#3e2093;
+	font-size: 50px;
+	font-weight: 500px;
+}
+#bottem div.line {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 250px;
+	margin-right: 200px;
+	margin-bottom: 100px;
+}
+#bottem div.line p {
+	text-align: center;
+	font-size: 20px;
+}
+#bottem div.line button {
+	background-color: #3e2093;
+	color: #fff;
+	font-size: 18px;
+	padding: 40px;
+	border-radius: 20px;
+	display: block;
+	margin: 0 auto;
+}
+#bottem div.data1 .img {
+	width: 150%;
+}
+#bottem div.data1 h2 {
+	font-size: 35px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+#bottem div.data1 img {
+	display: block;
+	width: 100%;
+}
+#bottem div.data1 ul {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+#bottem div.data1 ul li {
+	width: 24%;
+	margin-bottom: 40px;
+
+}
+#bottem div.data1 ul li a img {
+	display: block;
+	width: 100%; 
+	height: 110%;
+	border-radius: 13px;
+}
+.section{
+	width: 100%;
+}
+.box{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+.data-section{
+	float: left;
+	width: 55%;
+}
+.image-section{
+	float: right;
+	width: 40%;
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+}
+.data-section .title{
+	font-size: 20px;
+}
+.data-section .data h3{
+	margin-top: 20px;
+	color:#5d5d5d;
+	font-size: 21px;
+}
+.data-section .data p{
+	margin-top: 10px;
+	font-size: 18px;
+}
+.data-section .data .button{
+	margin-top: 30px;
+}
+.data-section .data .button a{
+	background-color: #3e2093;
+	padding:12px 40px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 18px;
+	border-radius: 14px;
+}
+.data-section .social{
+	margin: 40px 40px;
+}
+.data-section .social i{
+	color:#000;
+	font-size: 30px;
+	padding:0px 10px;
+}
+.container{
+	width: 85%;
+	background: #fff;
+	border-radius: 6px;
+	padding: 20px 60px 30px 40px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	margin-top: 50%;
+	margin:0 auto;
+	display: block;
+	margin-top: 600px;
+  }
+  .container .content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  }
+  .container .content .left-side{
+	width: 25%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 15px;
+	position: relative;
+  }
+  .content .left-side::before{
+	content: '';
+	position: absolute;
+	height: 70%;
+	width: 2px;
+	right: -15px;
+	top: 50%;
+	transform: translateY(-50%);
+	background: #afafb6;
+  }
+  .content .left-side .details{
+	margin: 14px;
+	text-align: center;
+  }
+  .content .left-side .details i{
+	font-size: 30px;
+	color: #3e2093;
+	margin-bottom: 10px;
+  }
+  .content .left-side .details .topic{
+	font-size: 18px;
+	font-weight: 500;
+  }
+  .content .left-side .details .text-one,
+  .content .left-side .details .text-two{
+	font-size: 14px;
+	color: #afafb6;
+  }
+  .container .content .right-side{
+	width: 75%;
+	margin-left: 75px;
+  }
+  .content .right-side .topic-text{
+	font-size: 23px;
+	font-weight: 600;
+	color: #3e2093;
+  }
+  .right-side .input-box{
+	height: 50px;
+	width: 100%;
+	margin: 12px 0;
+  }
+  .right-side .input-box input,
+  .right-side .input-box textarea{
+	height: 100%;
+	width: 100%;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	background: #F0F1F8;
+	border-radius: 6px;
+	padding: 0 15px;
+	resize: none;
+  }
+  .right-side .message-box{
+	min-height: 110px;
+  }
+  .right-side .input-box textarea{
+	padding-top: 6px;
+  }
+  .right-side .button{
+	display: inline-block;
+	margin-top: 12px;
+  }
+  .right-side .button input[type="button"]{
+	color: #fff;
+	font-size: 18px;
+	outline: none;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 6px;
+	background: #3e2093;
+	cursor: pointer;
+  }
+  .button input[type="button"]:hover{
+	background: #5029bc;
+  }
+  .topic-text {
+	margin-top: 20px;
+	margin-bottom: 20px;
+  }
+footer {
+	background-color: #5029bc;
+	padding: 100px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+#spotlight {
+	w
+}
